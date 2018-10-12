@@ -72,7 +72,10 @@ zorgen we dat er geen lijntje onder staat*/
 */
 
 #team{
-  width: 95%;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #logo{
@@ -110,11 +113,8 @@ zorgen we dat er geen lijntje onder staat*/
   margin-top: 10px;
 }
 
-iframe{
-  width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+figcaption {
+  margin-left: 5%;
 }
 
 nav {
@@ -222,7 +222,10 @@ zorgen we dat er geen lijntje onder staat*/
 */
 
 #team{
-  width: 95%;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #logo{
@@ -230,9 +233,9 @@ zorgen we dat er geen lijntje onder staat*/
 }
 
 #bestekaas{
-  width: 60%;
+  width: 50%;
   display: block;
-  margin-left: auto;
+  margin-left: 3%;
   margin-right: auto;
 }
 
@@ -255,11 +258,8 @@ zorgen we dat er geen lijntje onder staat*/
   text-align: center;
 }
 
-iframe{
-  width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+figcaption {
+  margin-left: 10%;
 }
 
 nav {
@@ -348,5 +348,28 @@ nav > ul > li > a {
   margin-left: auto;
   margin-right: auto;
   }
+
+  #maintext, figcaption {
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+
+  #team{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #bestekaas{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  margin-left: 14%;
+}
 
 }
