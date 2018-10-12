@@ -1,0 +1,352 @@
+
+body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas: 
+        "title title"
+        "menu  menu"
+        "main  main"
+        "main  main"
+        "ad1   ad1"
+        "ad2   ad2"
+        "foot  foot "; 
+}
+
+.header{
+  grid-area: title;
+} 
+
+.main{
+  grid-area: main;
+}
+
+#menu {
+  grid-area: menu;
+}
+
+.ad1 {
+  grid-area: ad1;
+}
+.ad2 {
+  grid-area: ad2;
+}
+
+.foot {
+  grid-area: foot;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.menutoggle {
+  margin-left: auto;
+}
+
+/*Hiermee maken we het hamburgermenu groter en 
+zorgen we dat er geen lijntje onder staat*/
+
+.menutoggle a{
+  font-size: 2em;
+  color: #EDB91F;
+  text-decoration: none;
+}
+
+.active {
+  /*display: initial;*/
+  max-height: 400px;
+  transition: max-height 0.8s;
+}
+
+.inactive {
+  /*display: none;*/
+  max-height: 0px;
+  transition: max-height 0.8s;
+}
+
+/*
+  Nav styles
+*/
+
+#team{
+  width: 95%;
+}
+
+#logo{
+  width: 40%;
+}
+
+#bestekaas{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#studiereis{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#wijnkaas{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#leesmeer{
+  color: #EDB91F;
+  text-align: center;
+}
+
+#facebook{
+  width: 20px;
+  margin-top: 10px;
+}
+
+iframe{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: flex;
+  padding: 0.4em;
+  margin: 0.4em;
+  list-style: none;
+  justify-content: center;
+  border-radius: 0.4em;
+  /*background-color: rgba(255, 255, 255, 0.2);*/
+}
+
+nav ul li:hover {
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
+nav > ul > li > a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 550px){
+body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas: 
+        "title title"
+        "menu  menu"
+        "main  main"
+        "main  main"
+        "ad1   ad2"
+        "foot  foot "; 
+}
+
+.header{
+  grid-area: title;
+} 
+
+.main{
+  grid-area: main;
+}
+
+#menu {
+  grid-area: menu;
+}
+
+.ad1 {
+  grid-area: ad1;
+}
+.ad2 {
+  grid-area: ad2;
+}
+
+.foot {
+  grid-area: foot;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.menutoggle {
+  margin-left: auto;
+}
+
+/*Hiermee maken we het hamburgermenu groter en 
+zorgen we dat er geen lijntje onder staat*/
+
+.menutoggle a{
+  font-size: 2em;
+  color: #EDB91F;
+  text-decoration: none;
+}
+
+.active {
+  /*display: initial;*/
+  max-height: 400px;
+  transition: max-height 0.8s;
+}
+
+.inactive {
+  /*display: none;*/
+  max-height: 0px;
+  transition: max-height 0.8s;
+}
+
+/*
+  Nav styles
+*/
+
+#team{
+  width: 95%;
+}
+
+#logo{
+  width: 40%;
+}
+
+#bestekaas{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#studiereis{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#wijnkaas{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#leesmeer{
+  color: #EDB91F;
+  text-align: center;
+}
+
+iframe{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: flex;
+  padding: 0.4em;
+  margin: 0.4em;
+  list-style: none;
+  justify-content: center;
+  border-radius: 0.4em;
+  /*background-color: rgba(255, 255, 255, 0.2);*/
+}
+
+nav ul li:hover {
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
+nav > ul > li > a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.address {
+    float: left;
+    margin-left: 15%;
+}
+
+.social { 
+    float: right;
+    margin-right: 15%;
+}
+
+}
+
+@media only screen and (min-width: 920px){
+  body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    grid-template-areas: 
+          "title title title"
+          "menu  menu  menu"
+          "main  main  ad1"
+          "main  main  ad2"
+          "foot  foot  foot"; 
+  }
+  /*nav ul li {
+    padding: 0.5em;
+  }*/
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+  flex-grow: 1;
+  }
+
+  .menutoggle{
+    display: none;
+  }
+
+  .active, .inactive {
+    /*display: initial;*/
+    max-height: initial;
+  }
+
+  #logo{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+}

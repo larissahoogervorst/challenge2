@@ -1,0 +1,106 @@
+html {
+	box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after{
+	box-sizing: inherit;
+}
+
+body{
+	/*background-color: #000D1A;*/
+  background-color: white;
+	color: #FFFFFF;
+  font-family: avenir, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgba(50, 50, 50, 0.5);
+  font-family: avenir, sans-serif;
+  text-shadow: 1px 1px 1px #000;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: normal;
+  background-color: #EDB91F;
+  padding: 0.4em;
+  border-radius: 0.2em;
+  font-family: avenir, sans-serif;
+  text-align: center;
+  color: white;
+  /*'Asap Condensed'*/
+}
+
+#blogtext{
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 1em; 
+  text-align: center;
+}
+
+.header, .main, .ad1, .ad2, .foot{
+  padding: 0.2em 1em;
+}
+
+.header {
+    background-color: #FFF;
+    color: black;
+}
+#menu {
+    background-color: #EDB91F;
+}
+.main {
+    background-color: #FFF;
+    color: black;
+}
+.ad1 {
+    background-color: white;
+    color: black;
+}
+.ad2 {
+    background-color: white;
+    color: black;
+}
+.foot {
+    background-color: #EDB91F;
+    color: white;
+}
+
+.address {
+    float: left;
+    margin-left: 5%;
+}
+
+.social { 
+    float: right;
+    margin-right: 5%;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+}
+
+footer {
+
+}
+
+figcaption{
+  font-size: 0.7em;
+}
+
+@media only screen and (min-width: 601px){
+  q {
+    width: 6em;
+    float: right;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
